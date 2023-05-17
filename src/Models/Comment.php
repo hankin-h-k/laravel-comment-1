@@ -67,7 +67,7 @@ class Comment extends Model
          * todo: add config to set user model
          */
         $model = Config::get('auth.providers.users.model');
-        return $this->belongsTo($model, 'commented_id', 'uid');
+        return $this->belongsTo($model, 'commented_id', 'id');
     }
 
 }
