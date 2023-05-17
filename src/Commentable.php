@@ -2,7 +2,7 @@
 /** actuallymab | 12.06.2016 - 02:13 */
 
 
-namespace Ufutx\LaravelComment;
+namespace Hankin\LaravelComment;
 
 use Ufutx\LaravelComment\Models\Comment;
 

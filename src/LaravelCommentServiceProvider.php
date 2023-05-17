@@ -1,6 +1,6 @@
 <?php
 
-namespace Ufutx\LaravelComment;
+namespace Hankin\LaravelComment;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -30,7 +30,7 @@ class LaravelCommentServiceProvider extends ServiceProvider
      */
     public function register()
     {
-//        parent::register(); 
+//        parent::register();
  //       $this->mergeConfig();
     }
 }

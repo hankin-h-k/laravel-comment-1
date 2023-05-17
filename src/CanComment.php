@@ -6,9 +6,9 @@
  * Time: 02:13
  */
 
-namespace Ufutx\LaravelComment;
+namespace Hankin\LaravelComment;
 
-use Ufutx\LaravelComment\Models\Comment;
+use Hankin\LaravelComment\Models\Comment;
 
 trait CanComment
 {
@@ -27,7 +27,7 @@ trait CanComment
             'approved'       => ($commentable->mustBeApproved() && ! $this->isAdmin()) ? false : true,
             'commented_id'   => $this->getKey(),
             'commented_type' => get_class(),
-            'pic' => $pic 
+            'pic' => $pic
         ]);
 
         $commentable->comments()->save($comment);

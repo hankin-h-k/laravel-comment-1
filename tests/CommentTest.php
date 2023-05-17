@@ -1,9 +1,9 @@
 <?php
 
-namespace Ufutx\LaravelComment\Tests;
+namespace Hankin\LaravelComment\Tests;
 
-use Ufutx\LaravelComment\Tests\Models\Product;
-use Ufutx\LaravelComment\Tests\Models\User;
+use Hankin\LaravelComment\Tests\Models\Product;
+use Hankin\LaravelComment\Tests\Models\User;
 use Faker\Generator;
 use Faker\Provider\Lorem;
 
@@ -118,10 +118,10 @@ class CommentTest extends TestCase
     {
         $user = $this->createUser();
         $product = $this->createProduct();
-        
+
         $user->comment($product, $this->faker->sentence);
         $user->comment($product, $this->faker->sentence);
-        
+
         $this->assertEquals(2, $product->totalCommentCount());
     }
 

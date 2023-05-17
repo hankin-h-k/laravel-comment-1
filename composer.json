@@ -1,10 +1,10 @@
 {
-    "name": "ufutx/laravel-comment",
+    "name": "hankin/laravel-comment",
     "type": "library",
     "minimum-stability": "dev",
     "description": "Just another comment system for laravel projects.",
     "keywords": [
-        "ufutx",
+        "hankin",
         "laravel-comment"
     ],
     "homepage": "https://github.com/glore/laravel-comment",
@@ -17,31 +17,30 @@
             "role": "Software Engineer"
         },
         {
-            "name": "Zeng glore",
-            "email": "zglore@163.com",
-            "homepage": "http://www.ufutx.com",
+            "name": "hankin",
+            "email": "hankin_h@126.com",
             "role": "Software Engineer"
         }
     ],
     "require": {
-        "illuminate/database": "5.*", 
+        "illuminate/database": "5.*",
         "php" : ">=5.6.4"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4", 
-        "phpunit/phpunit" : "5.*", 
-        "mockery/mockery": "~0.9.0", 
-        "orchestra/testbench": "~3.4", 
+        "fzaninotto/faker": "~1.4",
+        "phpunit/phpunit" : "5.*",
+        "mockery/mockery": "~0.9.0",
+        "orchestra/testbench": "~3.4",
         "orchestra/database": "3.4.x@dev"
     },
     "autoload": {
         "psr-4": {
-            "Ufutx\\LaravelComment\\": "src"
+            "Hankin\\LaravelComment\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Ufutx\\LaravelComment\\Tests\\": "tests"
+            "Hankin\\LaravelComment\\Tests\\": "tests"
         }
     },
     "scripts": {

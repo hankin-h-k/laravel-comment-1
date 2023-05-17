@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/ufutx/laravel-comment).
+We accept contributions via Pull Requests on [Github](https://github.com/hankin-h-k/laravel-comment).
 
 
 ## Pull Requests
